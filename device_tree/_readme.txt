@@ -10,6 +10,7 @@ imx8mp-phyboard-pollux-without-i2c2-gpio2_1.dtsi
 ~/linux-imx-phytec-v5.10.72_2.2.0-phy9/arch/arm64/boot/dts/freescale/Makefile
 # ------------------ add ------------------
 dtb-$(CONFIG_ARCH_MXC) += imx8mp-phyboard-pollux-rdk-rpmsg.dtb
+dtb-$(CONFIG_ARCH_MXC) += imx8mp-phyboard-pollux-rdk-rpmsg-without-i2c2.dtb
 # -----------------------------------------
 
 # compile kernel
