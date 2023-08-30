@@ -4,27 +4,29 @@
 			"name": "Linux",
 			"includePath": [
 				"${workspaceFolder}/**",
-				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/**"
-				// "~/linux-imx-phytec-v5.10.72_2.2.0-phy9/include/**",
-				// "~/linux-imx-phytec-v5.10.72_2.2.0-phy9/include/linux/**",
-				// "~/linux-imx-phytec-v5.10.72_2.2.0-phy9/include/generated/**",
-				// "~/linux-imx-phytec-v5.10.72_2.2.0-phy9/include/asm-generic/**",
-				// "~/linux-imx-phytec-v5.10.72_2.2.0-phy9/arch/arm64/include/**",
-				// "~/linux-imx-phytec-v5.10.72_2.2.0-phy9/arch/arm64/include/generated/**",
-				// "~/linux-imx-phytec-v5.10.72_2.2.0-phy9/tools/include/**",
-				// "~/linux-imx-phytec-v5.10.72_2.2.0-phy9/tools/lib/**"
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/include/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/include/linux/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/include/generated/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/include/asm-generic/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/include/uapi/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/arch/arm64/include/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/arch/arm64/include/generated/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/arch/arm64/include/uapi/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/arch/arm64/include/generated/uapi/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/arch/arm64/include/asm/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/arch/arm64/include/uapi/asm/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/tools/include/",
+				"~/linux-imx-phytec-v5.10.72_2.2.0-phy9/tools/lib/"
 			],
 			"defines": [
-				"KBUILD_MODNAME"
+				"KBUILD_MODNAME",
+				"__GNUC__",
+				"__KERNEL__",
+				"MODULE"
 			],
-			// "compilerPath": "",
-			// "compilerPath": "/opt/ampliphy-vendor-xwayland/BSP-Yocto-NXP-i.MX8MP-PD22.1.1/sysroots/x86_64-phytecsdk-linux/usr/bin/aarch64-phytec-linux-musl/aarch64-phytec-linux-musl-gcc",
-			"cStandard": "gnu99",
-			// "cppStandard": "",
-			// "intelliSenseMode": "clang-arm64"
-			// "intelliSenseMode": "linux-gcc-x64",
+			"compilerPath": "/opt/ampliphy-vendor-xwayland/BSP-Yocto-NXP-i.MX8MP-PD22.1.1/sysroots/x86_64-phytecsdk-linux/usr/bin/aarch64-phytec-linux-musl/aarch64-phytec-linux-musl-gcc",
+			"cStandard": "gnu89",
 			"intelliSenseMode": "linux-gcc-arm64"
-			// "configurationProvider": "includePath"
 		}
 	],
 	"version": 4
